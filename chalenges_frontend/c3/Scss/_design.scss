@@ -1,0 +1,93 @@
+html{
+   
+    min-height: 100vh;
+    display: grid;
+    border: none;
+    place-items: center;
+}  
+
+
+
+article{
+   
+   width: 250px;
+   height: 400px;
+   margin: -2px;;
+   display: inline-flex;/*Utilisez flexbox pour aligner les colonnes horizontalement */
+}
+
+.articles{
+   margin: 45px;
+  }
+
+
+ .b1{
+    background-color:#e28525;
+    border-radius: 5px  0 0 5px;
+ }
+
+ .b2{
+    background-color:#016972;
+ }
+ .b3{
+    background-color: #00403f;
+    border-radius: 0 5px 5px 0;
+ }
+
+
+
+
+p {
+    color:white;
+    font-family: arial;
+    font-size: 12px;
+    line-height: 1.7em;
+}
+
+ h1{
+    font-size: 15px;
+    font-family:Tahoma,Verdana, Geneva, sans-serif;
+    color: white;
+ }
+
+button{
+    margin-top:45px;
+    color: white;
+    border: none;
+    border-radius:20px;
+   
+}
+
+.sedans{
+    color: #e28525;
+}
+
+
+.SUVs{
+    color: #016972;
+}
+
+.luxury{
+    color:#00403f
+}
+button >p{
+    margin:5px 10px 5px 10px;
+}
+.attribution{
+    margin: 10px;
+    text-align: center;
+    
+}
+
+
+.attribution a{
+    text-decoration: none;
+    color: grey;
+    
+}
+
+.attribution a:hover{
+    color: blue;
+
+
+}
