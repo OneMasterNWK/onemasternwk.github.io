@@ -11,9 +11,10 @@ html, body {
 .contain {
     margin: auto;
     text-align: center;
+    background-color: rgb(108, 18, 18);
     box-shadow: 6px 6px 30px rgba(0, 0, 0, 0.2);
     width: 400px;
-    background-color: white;
+    
     /* ALIGNEMENT sur la ligne quand il ya de l'escpace
     se superpose quand c'est retrecie*/
     flex-wrap: wrap;

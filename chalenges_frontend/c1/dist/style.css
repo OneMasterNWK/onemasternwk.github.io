@@ -10,6 +10,7 @@ html, body {
 .contain {
   margin: auto;
   text-align: center;
+  background-color: white;
   box-shadow: 6px 6px 30px rgba(0, 0, 0, 0.2);
   width: 400px;
   /* ALIGNEMENT sur la ligne quand il ya de l'escpace
