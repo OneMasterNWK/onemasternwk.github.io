@@ -1,0 +1,12 @@
+article {
+  height: 600px;
+  width: 400px;
+  background-color: white;
+  display: grid;
+  place-items: center;
+}
+
+.text {
+  width: 300px;
+  text-align: center;
+}/*# sourceMappingURL=globals4.css.map */
