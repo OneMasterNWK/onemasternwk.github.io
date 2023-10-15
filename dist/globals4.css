@@ -87,7 +87,7 @@ button {
   width: 300px;
   height: 35px;
   border-radius: 5px;
-  box-shadow: #162e56;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.5);
 }
 
 .attribution {
