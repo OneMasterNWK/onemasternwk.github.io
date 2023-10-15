@@ -1,6 +1,9 @@
 html{
   height: 100%;
+  background-image: url("../chalenges_frontend/c4/images/pattern-background-desktop.svg") ;
   background-color:#dfe8ff;
+  background-repeat: no-repeat;
+  background-size: 100%;
   display: flex;
   flex-direction:column;
   justify-content: center;
