@@ -1,12 +1,95 @@
+html {
+  height: 100%;
+  background-color: #dfe8ff;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+body {
+  display: grid;
+  place-items: center;
+}
+
 article {
-  height: 600px;
-  width: 400px;
+  height: 550px;
+  width: 350px;
   background-color: white;
   display: grid;
   place-items: center;
+  border-radius: 20px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+img {
+  width: 350px;
+  margin-top: -10px;
+  border-radius: 20px 20px 0 0;
 }
 
 .text {
   width: 300px;
   text-align: center;
+}
+
+.text h1 {
+  color: #162e56;
+  font-size: 28px;
+}
+
+.text p {
+  color: gray;
+}
+
+.plan {
+  width: 300px;
+  height: 75px;
+  font-weight: bold;
+  background-color: #edf0f9;
+  display: inline;
+  align-items: center;
+  border-radius: 10px;
+}
+
+.title {
+  margin: 0;
+  font-weight: bold;
+  font-size: 14px;
+  color: #162e56;
+}
+
+.plan img {
+  width: 50px;
+}
+
+.line_text {
+  float: left;
+  font-size: 13px;
+  padding: 20px;
+  align-items: center;
+}
+
+.left {
+  font-weight: bold;
+  font-size: 14px;
+  color: gray;
+}
+
+button {
+  color: white;
+  background-color: #382ae0;
+  font-weight: bold;
+  border: none;
+  width: 300px;
+  height: 35px;
+  border-radius: 5px;
+}
+
+.attribution {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  text-align: center;
+  padding: 10px;
 }/*# sourceMappingURL=globals4.css.map */
