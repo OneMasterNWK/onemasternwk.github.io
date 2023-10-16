@@ -1,0 +1,74 @@
+@charset "UTF-8";
+html {
+  height: 100vh;
+  background-color: #0a0c1b;
+  display: grid;
+  place-items: center;
+}
+
+.block {
+  display: flex;
+}
+
+.bloc_text {
+  background-color: #1c1938;
+  width: 500px;
+  height: 400px;
+  color: white;
+  font-family: "calibri", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+
+.text {
+  margin: 60px;
+  width: 350px;
+}
+
+.title {
+  font-weight: bold;
+  font-size: 33px;
+}
+
+.title span {
+  color: #a95bda;
+}
+
+.descrip {
+  font-size: medium;
+  font-weight: lighter;
+}
+
+.rapport {
+  display: flex; /* Les blocs s'afficheront côte à côte */
+}
+
+.donne {
+  margin-top: 20px;
+  margin-right: 70px;
+  text-transform: uppercase;
+}
+
+.donne > p {
+  font-size: 12px;
+}
+
+image {
+  width: 500px;
+  height: 400px;
+}
+
+.color {
+  background-color: #a95bda;
+  mix-blend-mode: multiply;
+  width: 500px;
+  height: 400px;
+  position: fixed;
+}
+
+img {
+  width: 500px;
+  height: 400px;
+}
+
+.attribution {
+  color: white;
+}/*# sourceMappingURL=style_c5.css.map */
